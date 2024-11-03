@@ -1,0 +1,30 @@
+.container{
+    /* border: 1px solid; */
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    
+}
+
+.name{
+    margin-left: 40px;
+
+
+}
+.nav{
+  display: flex;
+  gap: 30px;
+  margin-right: 40px;
+
+
+}
+.nav a{
+   text-decoration: none;
+   color: white;
+
+}
