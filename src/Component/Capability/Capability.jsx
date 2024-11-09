@@ -12,9 +12,10 @@ const Capability = () => {
        <button>HTML</button>
        <button>CSS</button>
        <button>JavaScript</button>
+       <button>Styled Component</button>
        <button>React JS</button>
-       <button>Git Hub</button>
-       <button>FIFMA</button>
+       <button>Git </button>
+       <button>Bootstrap (Learning)</button>
        <button>TAILWIND CSS (learning) </button>
        <button>NODE JS  (learning)</button>
 

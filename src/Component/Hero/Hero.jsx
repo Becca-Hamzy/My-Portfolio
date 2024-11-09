@@ -1,15 +1,24 @@
   import "./Hero.css"
-  import pic from "../../assets/pic.jpeg"
-
+  import pic from "../../assets/svg/becca..png"
+  import CV from "../../assets/svg/myCV.pdf"
 
   const Hero = () => {
+
+   const handleDownload = () => {
+      const link = document.createElement('a');
+      link.href = CV
+      link.download = 'Oyewole R. Olufunmi CV.pdf'; 
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+  };
      return (
         <div className="me">
         <div  className="text">
-         <h3>Welcome to my world!</h3>
-         <p>Hi, I'm Oyewole Olufunmi</p> 
-         <p>A versatile, hardworking individual; driven to meet or exceed a company’s expectations to deliver high-quality software products. Experienced in Java, JavaScript, Swift, SQL, Go, and Python. An effective listener that can communicate technical information in an easily understandable way. Offers a strong background in creative problem-solving and a proven ability to multi-task and prioritize in fast-paced, stressful environments.</p>
-         <button className="resume">Download my resume</button>
+        <h4>Hi there!</h4>
+         <h2>I am a Developer </h2> 
+         <p>I make the complex simple</p>
+         <button className="resume" onClick={handleDownload}>Download my resume</button>
         </div>
         <div className="img">
          <img src= {pic} alt="" />
