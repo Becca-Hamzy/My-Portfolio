@@ -1,13 +1,13 @@
   import "./Hero.css"
   import pic from "../../assets/svg/becca..png"
-  import CV from "../../assets/svg/myCV.pdf"
+  import CV from "../../assets/svg/Oyewole R. Olufunmi.pdf"
 
   const Hero = () => {
 
    const handleDownload = () => {
       const link = document.createElement('a');
       link.href = CV
-      link.download = 'Oyewole R. Olufunmi CV.pdf'; 
+      link.download = 'Oyewole R. Olufunmi.pdf'; 
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);

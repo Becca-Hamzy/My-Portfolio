@@ -15,9 +15,9 @@ const Contact = () =>{
              <p> I am ready to turn imaginations to reality. </p>
 
               <p>Say hello at oyewoleolufunmi@gmail.com</p>
-              <a href="https://www.linkedin.com/in/oyewole-olufunmi"><IoLogoLinkedin  size={30}  color="blue"/> </a>
-              <a href="https://github.com/Becca-Hamzy/Becca-Hamzy"><IoLogoGithub size={30} color="blue"/> </a>
-              <a href="oyewoleolufunmi@gmail.com"><SiGmail size={30} color="blue" /></a>
+              <a href="https://www.linkedin.com/in/oyewole-olufunmi" target="_blank"><IoLogoLinkedin  size={30}  color="blue"/> </a>
+              <a href="https://github.com/Becca-Hamzy/Becca-Hamzy" target="_blank"><IoLogoGithub size={30} color="blue"/> </a>
+              <a href="mailto:oyewoleolufunmi@gmail.com"target="_blank"><SiGmail size={30} color="blue" /></a>
          </div>
 
              <div  className="content">
