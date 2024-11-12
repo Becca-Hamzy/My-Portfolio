@@ -7,8 +7,13 @@ const Capability = () => {
          <h1>MY EXPERTISE</h1>
       </div>
 
+
+      <div id="skillsDiv">
+
+
+      <p>I am constantly seeking to acquire new skills.</p>
       <div className="expert">
-       <p>I am constantly seeking to acquire new skills.</p>
+      
        <button>HTML</button>
        <button>CSS</button>
        <button>JavaScript</button>
@@ -19,6 +24,10 @@ const Capability = () => {
        <button>TAILWIND CSS (learning) </button>
        <button>NODE JS  (learning)</button>
 
+         
+      </div>
+
+    
 
       </div>
       </div>
