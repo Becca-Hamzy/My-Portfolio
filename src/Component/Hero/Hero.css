@@ -54,26 +54,28 @@
 
     .text{
         margin-top: -50px;
-        width: 150px;
-        /* border:  10px solid green; */
-        margin-left: 10px;
+        width: 100%;
+        /* border:  2px solid green; */
+        margin-left: 0px;
         height: 200px;
+        text-align: center;
 
     }   
     .text h2{
-        width: 150px;
+        width: 100%;
         /* border:  10px solid green; */
         margin-left: 0px;
         text-align: center;
 
     }
     .text p{
-        margin-left: -10px;
+        margin-left: 0px;
         text-align: center;
 
     }
     .text h4{
         text-align: center;
+        margin-left: 0px;
 
     }
 
@@ -85,7 +87,7 @@
         border: none;
         color: white;
         margin-left: 0px;
-
+        text-align: center;
     }
 
 
