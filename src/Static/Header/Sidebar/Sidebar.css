@@ -1,6 +1,7 @@
 .contain{
  display: flex;
  flex-direction: column;
+ background-color: white;
 color: red;
 position: absolute;
 top: 100px;

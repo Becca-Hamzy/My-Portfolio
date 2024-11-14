@@ -109,6 +109,8 @@
         padding-left: 0px;
         margin:  12px;
         width: 360px;
+        text-align: center;
+
         /* border: 1px solid yellow; */
 
 
@@ -119,8 +121,8 @@
     .right p{
         /* border: 1px solid yellow; */
         width: 100%;
-        margin: 12px;
-        text-align: justify;
+        margin: 5px;
+        text-align: center;
 
     }
 
