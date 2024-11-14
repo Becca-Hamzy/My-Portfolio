@@ -10,11 +10,16 @@ const Sidebar = ({toggle, setToggle}) => {
     const scrollToSection = (idPassed) => {
         const Section = document.getElementById(idPassed)
         Section?.scrollIntoView ({behavior: "smooth"})
-  
+        disappear("contain")
       }
+        
 
+        const disappear = (myId) => {
+         const diss = document.getElementById(myId)
+         diss.style.display = "none";
+       }
     return(
-        <div className="contain">
+        <div className="contain" id="contain">
         <Link to = "#">
            Home
         </Link>
