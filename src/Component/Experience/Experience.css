@@ -33,9 +33,9 @@ background-color: rgb(54, 53, 53);
            justify-content: space-between;
            background-color: rgb(54, 53, 53);;
             color: white;
-            height: 800px;
+            height: 700px;
             width: 100%;
-            margin-top: -355px;
+            margin-top: -395px;
             padding: 0px;
             /* border: 2px solid blue; */
 
@@ -46,9 +46,8 @@ background-color: rgb(54, 53, 53);
            margin-top: 0px;
            /* border: 5px solid blue; */
            text-align: center;
-           width: 200px;
-           margin-left: -75px;
-
+           width: 300px;
+           margin-left: -112px;
         }
         ul{
             list-style: none;

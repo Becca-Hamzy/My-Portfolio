@@ -19,7 +19,7 @@ const About = () => {
         </div>
         <div className="right">
         <h4>My name is Oyewole R. Olufunmi</h4>
-        <p>A versatile, hardworking individual; driven to meet or exceed a company’s expectations to deliver high-quality software products. Experienced in HTML, CSS, JavaScript, Typescript, and React. An effective listener that can communicate technical information in an easily understandable way. Offers a strong background in creative problem-solving and a proven ability to multi-task and prioritize in fast-paced, stressful environments.</p>        
+        <p>A versatile, hardworking individual; driven to meet and exceed a company’s expectations to deliver high-quality software products. Experienced in HTML, CSS, JavaScript, Typescript, and React. An effective listener that can communicate technical information in an easily understandable way. Offers a strong background in creative problem-solving and a proven ability to multi-task and prioritize in fast-paced, stressful environments.</p>        
 
         </div>
         
